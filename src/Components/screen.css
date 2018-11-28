@@ -1,0 +1,17 @@
+.inputScreen{
+    width: 5em;
+    height: 2em;    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    flex-basis: 100%;
+    color: white;
+    border-bottom: 0.5px solid blue;
+    margin:0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #15161f, #47474b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #15161f, #47474b);
+    font-size: 2em;
+    justify-content: space-between;
+}

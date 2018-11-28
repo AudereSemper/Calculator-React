@@ -1,0 +1,19 @@
+.button{
+    background-color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    border-radius: 5px;
+    color:black;
+    background-color: blue;
+}
+

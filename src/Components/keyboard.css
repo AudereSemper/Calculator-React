@@ -1,0 +1,55 @@
+.keyboard{
+    display: flex;
+}
+
+.column{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:35px;
+    flex-grow: 1;
+}
+
+
+.roundBorder{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.keyboardRow{ 
+    margin: -1px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1a1919, #000000);
+}
+
+.lastRow{
+    border-top: 1px;
+    padding-bottom: 20px;
+}
+
+  .keyboardRow, .button {
+    flex: 1 0;
+    color:blue;
+  }
+
+  @media (max-width: 1024px) {
+    .keyboard {
+      display: block;
+    }
+
+    .keyboardRow{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .column {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom:0px;
+    }
+  }
+
+
